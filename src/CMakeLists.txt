@@ -63,7 +63,10 @@ set_target_properties(benchmark_main PROPERTIES
   OUTPUT_NAME "benchmark_main"
   VERSION ${GENERIC_LIB_VERSION}
   SOVERSION ${GENERIC_LIB_SOVERSION}
+<<<<<<< HEAD
   DEBUG_POSTFIX ${BENCHMARK_DEBUG_POSTFIX}
+=======
+>>>>>>> upstream/master
 )
 target_include_directories(benchmark PUBLIC
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/../include>
